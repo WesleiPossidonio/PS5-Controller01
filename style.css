@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(174,13,181,0.5853658536585367) 50%, rgba(0,212,255,1) 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 75%;
+    height: 95%;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin: 1% 0;
+
+}
+
+nav {
+width: 100%;
+text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #ae0db5;
+}
+
+.row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 52px 0;
+
+}
+
+.column-1 {
+     margin-left: 50px; 
+     position: relative;
+     
+}
+
+h2{
+    font-size: 54px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.column-1 p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #b7b7b7;
+    
+    
+}
+
+.column-1::before {
+    content: "";
+    width: 10px;
+    height: 57%;
+    background: rgb(94,22,97);
+    background: linear-gradient(90deg, rgba(94,22,97,0.5853658536585367) 23%, rgba(163,9,168,0.5853658536585367) 64%);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #000;
+    margin: 30px 0;
+}
+
+
+.buy {
+    width: 140px;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 2;
+    background: rgb(94,22,97);
+    background: linear-gradient(90deg, rgba(94,22,97,0.5853658536585367) 23%, rgba(163,9,168,0.5853658536585367) 64%);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out
+
+}
+
+.buy img {
+    width: 30px;
+    display: none;
+}
+
+.buy:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.buy:hover img {
+display: block;
+
+}
+.column-2 {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+.controller{
+  width: 90%; 
+  z-index: 2; 
+  animation: moveController  2s infinite alternate ease-in-out;
+}
+
+
+.color-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgb(94,22,97);
+    background: linear-gradient(90deg, rgba(94,22,97,0.5853658536585367) 23%, rgba(163,9,168,0.5853658536585367) 64%);
+    height: 100%;
+    width: 80%;
+    border-radius: 20px 0 0 20px;
+    z-index:1;
+    transform: translateX(150px);
+}
+
+
+.add-card {
+    z-index: 2;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.add-card img {
+    height: 100%;
+    width: 100%;
+    max-width: 55px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links img {
+height: 20px;
+margin: 20px;
+cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    height: 25px;
+    display: none;
+}
+
+
+@keyframes moveController {
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+    }
+}
+
+/* Media Query */
+
+@media (max-width: 1035px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        overflow-y: auto;
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        
+    }
+
+    .column-2 {
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
+
+    .color-box {
+        transform: translateX(70px);
+    }
+  
+    #menu-list {
+        position: relative;
+        top: 60px;
+        left: 60px;
+        overflow: hidden;
+        transition: all 0.8s ease-in-out;
+        
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .nav-li {
+      display: block;  
+      margin-top: 5px;
+    }
+  
+
+    h4 {
+        position: absolute;
+        margin-top: 12%;
+        right: 31%;
+        font-size: 17px;
+    }
+
+    .buy {
+        margin-top: 21%;
+        position: absolute;
+        right: 10%
+        
+    }
+
+    .social-links {
+        margin-top: 60%;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    @keyframes moveController {
+        from {
+            transform: translate(-5%, -5%) rotate(-5deg);
+        }
+    }
+    
+}
+
+ 
+
+
