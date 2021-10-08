@@ -1,50 +1,37 @@
 # PS5-Controller
 
-<img width="700"  src="./Fotos-Videos-Controller/Foto-Controller-pc.png" alt="Foto-Controller">
+<h1 align="center">
+    <img alt="PS5-Controller" src="./Fotos-Videos-Controller/Foto-Controller-pc.png" />
+</h1>
 
-> Esse foi o meu primeiro projeto responsivo.
+## 💻 Sobre o projeto
 
-### Tecnolgias usadas
+Esse foi o meu primeiro projeto responsivo. Além de ser responsivo, colocamos animações no controle e no botão compre aqui e ao passar o mouse nos botões eles mudam de cor graças ao comando houver.  
 
-Lista das tecnologias usadas:
+### Mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Gif-Controller"  src="https://media.giphy.com/media/3pU395EhLnz0mrNT8R/giphy.gif" width="600px">
+
+</p>
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Gif-Controller" src="https://media.giphy.com/media/uDPCIenFIO33YoDZTW/giphy.gif"   width="600px">
+</p>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - [x] HTML
 - [x] CSS
 - [x] JavaScript
 
-## 📱 Resultado no dispositivo móvel
+## 📝 Licença
 
-<img width="700"  src="./Fotos-Videos-Controller/Foto-Controller-cell.png" alt="Foto-Celular">
+Este projeto esta sobe a licença MIT.
 
-
-## 💻 Sobre o Projeto
-
-Além de ser responsivo, colocamos animações no controle e no botão compre aqui, e ao passar o mouse nos botões eles mudam de cor,
-graças ao comando houver.
-<br>
-![ Alt text](https://media.giphy.com/media/uDPCIenFIO33YoDZTW/giphy.gif)
-![ Alt text](https://media.giphy.com/media/3pU395EhLnz0mrNT8R/giphy.gif)
-
-
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://github.com/account" width="100px;" alt="Foto do Weslei Possidonio no GitHub"/><br>
-        <sub>
-          <b>Weslei França</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-    
-  </tr>
-</table>
-
-
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+Feito com ❤️ por Weslei França 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
 
