@@ -6,7 +6,11 @@
 
 ## 💻 Sobre o projeto
 
-Esse foi o meu primeiro projeto responsivo. Além de ser responsivo, colocamos animações no controle e no botão compre aqui e ao passar o mouse nos botões eles mudam de cor graças ao comando houver.  
+Esse foi o meu primeiro projeto responsivo. Além de ser responsivo, colocamos animações no controle e no botão compre aqui e ao passar o mouse nos botões eles mudam de cor graças ao comando houver. 
+
+<h3 align="center">
+    <a href="https://lnkd.in/eiVEeq5r">Acessar a demonstração</a>
+<h3 >
 
 ### Mobile
 
