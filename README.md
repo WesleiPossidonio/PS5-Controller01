@@ -33,5 +33,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença MIT.
 
-Feito com ❤️ por Weslei França 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
+Feito com ❤️ por Weslei França 👋🏽 [Entre em contato!](https://www.linkedin.com/in/wesleifranca/)
 
